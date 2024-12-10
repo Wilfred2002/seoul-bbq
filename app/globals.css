@@ -1,12 +1,17 @@
+/* Import Tailwind base styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom color variables for light and dark modes */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* Dark mode color scheme */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -14,6 +19,7 @@
   }
 }
 
+/* Global styles for the body */
 body {
   color: var(--foreground);
   background: var(--background);
