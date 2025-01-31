@@ -44,43 +44,6 @@ export default function ContactUs() {
                             <p>Friday-Saturday: 12:00 PM - 11:00 PM</p>
                         </div>
                     </div>
-
-                    {/* Contact Form */}
-                    <div className="mb-12">
-                        <h3 className="text-3xl font-bold text-center mb-4">Send Us a Message</h3>
-                        <form className="space-y-4">
-                            <div className="flex flex-col">
-                                <label className="text-lg font-semibold">Name</label>
-                                <input
-                                    type="text"
-                                    placeholder="Your Name"
-                                    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:border-gray-500"
-                                />
-                            </div>
-                            <div className="flex flex-col">
-                                <label className="text-lg font-semibold">Email</label>
-                                <input
-                                    type="email"
-                                    placeholder="Your Email"
-                                    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:border-gray-500"
-                                />
-                            </div>
-                            <div className="flex flex-col">
-                                <label className="text-lg font-semibold">Message</label>
-                                <textarea
-                                    rows={5}
-                                    placeholder="Your Message"
-                                    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:border-gray-500"
-                                />
-                            </div>
-                            <button
-                                type="submit"
-                                className="w-full bg-red-600 text-white p-3 rounded-md hover:bg-red-700 font-bold text-lg"
-                            >
-                                Send Message
-                            </button>
-                        </form>
-                    </div>
                 </div>
             </section>
 
