@@ -17,15 +17,15 @@ export default function AboutUs() {
 
         {/* Right side with the about us info */}
         <div className="flex-1 p-8 md:p-12 flex flex-col justify-center items-center bg-gray-50">
-          <h1 className="text-3xl font-bold mb-6 text-center">ABOUT US</h1>
+          <h1 className="text-3xl font-bold mb-6 text-center">OUR STORY</h1>
           <p className="text-lg text-gray-700 text-justify leading-relaxed">
-            Welcome to Seoul Korean BBQ & Hotpot! Located in the heart of Springfield, we opened our doors in October to bring the rich, authentic flavors of Korea to our community. Our passion for Korean cuisine and hospitality drives everything we do. 
+            At Seoul Korean BBQ & Hotpot, we’re more than just a restaurant—we’re a celebration of Asian culinary traditions. Nestled in the heart of Springfield, we opened our doors in October with a mission to bring the vibrant flavors and warm hospitality of Asia to your table.
           </p>
           <p className="text-lg text-gray-700 text-justify leading-relaxed mt-4">
-            At Seoul Korean BBQ & Hotpot, we strive to create an unforgettable dining experience for you and your loved ones. From our sizzling barbecue grills to our bubbling hotpots, every dish is crafted with care and the finest ingredients to ensure a taste that’s both traditional and unique. Whether you're here for a special occasion or simply to enjoy a great meal, we are dedicated to making your time with us exceptional.
+            Our journey began with a simple idea: to create a space where friends and families can gather, share delicious food, and make lasting memories. From the sizzle of our barbecue grills to the comforting warmth of our hotpots, every dish is prepared with the freshest ingredients and a dedication to authenticity. Every bite tells a story of tradition and passion.
           </p>
           <p className="text-lg text-gray-700 text-justify leading-relaxed mt-4">
-            We are thrilled to be part of the Springfield community and look forward to serving you!
+            We’re proud to be part of the Springfield community and are committed to providing an exceptional dining experience for every guest. Thank you for choosing Seoul Korean BBQ & Hotpot—we can’t wait to welcome you and share the flavors of Korea with you!
           </p>
         </div>
       </div>

@@ -9,10 +9,10 @@ export default function Footer() {
                     <Link href="/">
                         <p className="hover:text-gray-400"></p>
                     </Link>
-                    <Link href="/">
-                        <p className="hover:text-gray-400">Terms of Service</p>
+                    <Link href="/PrivacyPolicy">
+                        <p className="hover:text-gray-400">Privacy Policy</p>
                     </Link>
-                    <Link href="/">
+                    <Link href="/ContactUs">
                         <p className="hover:text-gray-400">Contact Us</p>
                     </Link>
                 </div>
