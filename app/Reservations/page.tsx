@@ -23,7 +23,15 @@ export default function Reservations() {
                     <p className="text-lg text-gray-700 mt-2 text-center">
                         We look forward to hosting you!
                     </p>
-
+                                        {/* Yelp Reservation Button */}
+                                        <a
+                        href="https://www.yelp.com/biz/seoul-korean-bbq-and-hot-pot-springfield#location-and-hours"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-8 px-6 py-3 bg-black text-white text-lg font-medium rounded-md shadow-md hover:bg-gray-800"
+                    >
+                        GO TO YELP!
+                    </a>
                     {/* Address Section */}
                     <div className="mt-8 w-full max-w-lg">
                         <h2 className="text-xl font-semibold mb-4">MAP</h2>
@@ -53,15 +61,7 @@ export default function Reservations() {
                         <p className="text-green-600 font-bold mt-4">Open now</p>
                     </div>
 
-                    {/* Yelp Reservation Button */}
-                    <a
-                        href="https://www.yelp.com/biz/seoul-korean-bbq-and-hot-pot-springfield#location-and-hours"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-8 px-6 py-3 bg-black text-white text-lg font-medium rounded-md shadow-md hover:bg-gray-800"
-                    >
-                        GO TO YELP!
-                    </a>
+
                 </div>
             </div>
             <Footer />
